@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails BBR_TimeTrack: development" uuid="7c9e44e8-de79-4de6-b01a-45fbb2bc6cb1">
+      <auth-required>false</auth-required>
+    </data-source>
+    <data-source name="Rails BBR_TimeTrack: test" uuid="42a0b2c3-fb9d-4aa2-872e-446d4fcc8605" />
+  </component>
+</project>

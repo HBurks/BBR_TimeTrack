@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="Rails BBR_TimeTrack: development" uuid="7c9e44e8-de79-4de6-b01a-45fbb2bc6cb1">
+    <database-info product="SQLite" version="3.8.11" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native"/>
+    <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed"/>
+    <schema name="" catalog=""/>
+    <table name="ar_internal_metadata" schema="" catalog="" type="TABLE">
+      <column name="key" sqlType="VARCHAR" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="value" sqlType="VARCHAR" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="created_at" sqlType="DATETIME" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="updated_at" sqlType="DATETIME" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <primary-key columns="key"/>
+    </table>
+    <table name="schema_migrations" schema="" catalog="" type="TABLE">
+      <column name="version" sqlType="VARCHAR" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <primary-key columns="version"/>
+    </table>
+  </data-source>
+  <data-source name="Rails BBR_TimeTrack: test" uuid="42a0b2c3-fb9d-4aa2-872e-446d4fcc8605">
+    <database-info product="SQLite" version="3.8.11" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native"/>
+    <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed"/>
+    <schema name="" catalog=""/>
+  </data-source>
+</component>
